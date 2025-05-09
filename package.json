@@ -1,21 +1,18 @@
 {
-  "name": "mi-primer-react",
-  "version": "1.0.0",
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.14.4",
+    "parcel": "^2.14.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel public/index.html",
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  },
-  
-  "devDependencies": {
-    "parcel": "^2.14.4"
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.30.0"
   }
 }
